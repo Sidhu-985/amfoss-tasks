@@ -19,5 +19,5 @@ I found some of the tasks hard, but that is what I expected, and the tasks were 
 --------------|---------------|---------------
 [Introspection](https://github.com/Sidhu-985/amfoss-tasks/tree/main/introspection)|Introspection|Completed
 [Task-00](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-00)|Installing Ubuntu|Completed
-[Task-01](https://github.com/Sidhu-985/amfoss-tasks/tree/main/task-01)|Staring amFOSS repositories|Completed
+[Task-01](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-01)|Terminal Wizard|Completed
 
