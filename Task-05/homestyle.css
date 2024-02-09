@@ -1,0 +1,34 @@
+.Text{
+    color:white;
+    margin-top: 27%;
+    margin-left: 26%;
+    font-size: xx-large;
+}
+
+.Icons{
+    margin-left: 87%;
+    margin-top: -2%;
+}
+
+.Arrow{
+    margin-left:46%;
+}
+
+.Button{
+    background-color: turquoise;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px -4px;
+    cursor: pointer;
+    border-radius:5%;
+}
+.exp{
+    color:midnightblue;
+}
+.we{
+    margin-left: 24%;
+}
+
