@@ -23,4 +23,4 @@ I found some of the tasks hard, but that is what I expected, and the tasks were 
 [Task-03](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-03)|Hello World|Completed
 [Task-04](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-04)|Hacker-Rank|Incompleted
 [Task-05](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-05)|Rockstar Band|Completed
-[Task-06](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-06)||Incompleted
+[Task-06](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-06)|Cricket Vault|Incompleted
