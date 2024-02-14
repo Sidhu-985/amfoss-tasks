@@ -1,5 +1,5 @@
 def winner(grid):
-  for row in grid:
+    for row in grid:
         if row.count("X")==3:
             return "X"
         elif row.count("O")==3:
@@ -22,6 +22,14 @@ def winner(grid):
         elif grid[0][0]=="O":
             return "O"
         elif grid[0][0]=="+":
+            return "+"
+     
+    if grid[0][2]==grid[1][1]==grid[2][0]:
+        if grid[0][2]=="X":
+            return "X"
+        elif grid[0][2]=="O":
+            return "O"
+        elif grid[0][2]=="+":
             return "+"
         
     return "DRAW"
