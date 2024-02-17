@@ -17,19 +17,19 @@ I found some of the tasks hard, but that is what I expected, and the tasks were 
 
 **Tasks List**|**Description**|**Status**
 --------------|---------------|---------------
-[Task-00](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-00)|Installing Ubuntu|Completed
-[Task-01](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-01)|Terminal Wizard|Completed
-[Task-02](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-02)|Lessgo Hugo|Completed
-[Task-03](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-03)|Hello World|Partially-Completed
-[Task-04](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-04)|Hacker-Rank|Partially-Completed
-[Task-05](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-05)|Rockstar Band|Completed
-[Task-06](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-06)|Cricket Vault|Partially-Completed
-[Task-07](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-07)|AK-47℃|InCompleted
-[Task-08](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-08)|Poke-Search|Partially-Completed
-[Task-09](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-09)|GeoQuest|InCompleted
-[Task-10](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-10)|RuskOS|InCompleted
-[Task-11](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-11)|TinkerCAD|InCompleted
-[Task-12](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-12)|Godot|InCompleted
-[Task-13](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-13)|Vim|InCompleted
-[Task-14](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-14)|Bandit|InCompleted
-[Task-15](https://github.com/Sidhu-985/amfoss-tasks-2023-/tree/main/Task-15)|Project Euler|Completed
+[Task-00](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-00)|Installing Ubuntu|Completed
+[Task-01](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-01)|Terminal Wizard|Completed
+[Task-02](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-02)|Lessgo Hugo|Completed
+[Task-03](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-03)|Hello World|Partially-Completed
+[Task-04](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-04)|Hacker-Rank|Partially-Completed
+[Task-05](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-05)|Rockstar Band|Completed
+[Task-06](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-06)|Cricket Vault|Partially-Completed
+[Task-07](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-07)|AK-47℃|InCompleted
+[Task-08](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-08)|Poke-Search|Partially-Completed
+[Task-09](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-09)|GeoQuest|InCompleted
+[Task-10](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-10)|RuskOS|InCompleted
+[Task-11](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-11)|TinkerCAD|InCompleted
+[Task-12](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-12)|Godot|InCompleted
+[Task-13](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-13)|Vim|InCompleted
+[Task-14](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-14)|Bandit|InCompleted
+[Task-15](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-15)|Project Euler|Completed
