@@ -30,6 +30,6 @@ I found some of the tasks hard, but that is what I expected, and the tasks were 
 [Task-10](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-10)|RuskOS|InCompleted
 [Task-11](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-11)|TinkerCAD|InCompleted
 [Task-12](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-12)|Godot|InCompleted
-[Task-13](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-13)|Vim|InCompleted
+[Task-13](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-13)|Vim|Completed
 [Task-14](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-14)|Bandit|Completed
 [Task-15](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-15)|Project Euler|Completed
