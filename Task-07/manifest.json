@@ -1,0 +1,13 @@
+{
+    "name": "weather webpage",
+    "description" : "a webpage that displays weather details",
+    "version" : "0.0.1",
+    "manifest_version" : 3,
+    "action": {
+        "default_popup": "./weather.html",
+        "default_icon" : "./bg.avif" 
+    },
+
+    "permissions": ["activeTab"]
+    
+}
