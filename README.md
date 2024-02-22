@@ -24,7 +24,7 @@ I found some of the tasks hard, but that is what I expected, and the tasks were 
 [Task-04](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-04)|Hacker-Rank|Partially-Completed
 [Task-05](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-05)|Rockstar Band|Completed
 [Task-06](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-06)|Cricket Vault|Partially-Completed
-[Task-07](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-07)|AK-47℃|InCompleted
+[Task-07](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-07)|AK-47℃|Completed
 [Task-08](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-08)|Poke-Search|Partially-Completed
 [Task-09](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-09)|GeoQuest|InCompleted
 [Task-10](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-10)|RuskOS|InCompleted
