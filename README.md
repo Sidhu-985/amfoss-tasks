@@ -19,7 +19,7 @@ I found some of the tasks hard, but that is what I expected, and the tasks were 
 --------------|---------------|---------------
 [Task-00](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-00)|Install Linux|Completed
 [Task-01](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-01)|Type Maestro|Completed
-[Task-02](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-02)|Lessgo Hugo|Completed
+[Task-02](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-02)|Terminal Chaos|Completed
 [Task-03](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-03)|Hello World|Completed
 [Task-04](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-04)|Hacker-Rank|Partially-Completed
 [Task-05](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-05)|Rockstar Band|Completed
