@@ -28,5 +28,5 @@
 > - Username: @dsfhv_bot
 
 > # Technical Difficulties
-> Like I said ```when you are trying to up the mountain you may sometimes slip or fall off```. Similar situation I have faced many times during type casting.
-> Every 
+> Like I said ```when you are trying to reach up the mountain you may sometimes slip or fall off```. Similar situation I have faced many times during type casting.
+> Every time I cast new code a new error after error occurs and I had to change the handling of messages part because whenever I type 'hello' or something else it activates the book command and not the correct response messages I needed.
