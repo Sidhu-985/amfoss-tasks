@@ -19,15 +19,12 @@ def pirate_subtitles(mp4_file, language, output, file_size, match_by_hash, batch
         process_single_file(mp4_file, language, output, file_size, match_by_hash)
 
 def process_single_file(mp4_file, language, output, file_size, match_by_hash):
-    # Find IMDb ID and calculate hash and file size
-    imdb_id = get_imdb_id(mp4_file)
+
     movie_hash = calculate_opensubtitles_hash(mp4_file) if match_by_hash else None
     size = os.path.getsize(mp4_file) if not file_size else file_size
 
-    # Scrape subtitles
     subtitles = scrape_subtitles(imdb_id, movie_hash, size, language)
     
-    # Display subtitles and let user choose
     if subtitles:
         click.echo('Available subtitles:')
         for idx, subtitle in enumerate(subtitles):
@@ -41,21 +38,14 @@ def process_single_file(mp4_file, language, output, file_size, match_by_hash):
         click.echo('No subtitles found.')
 
 def process_directory(directory, language, output, file_size, match_by_hash):
-    # Batch mode: process all MP4 files in the directory
     for root, _, files in os.walk(directory):
         for file in files:
             if file.endswith('.mp4'):
                 click.echo(f"Processing file: {file}")
                 process_single_file(os.path.join(root, file), language, output, file_size, match_by_hash)
 
-def get_imdb_id(file_path):
-    # Mocked function to get IMDb ID from file metadata
-    # In a real application, you would use a library to extract metadata or use a database to look up the file.
-    return "tt1234567"  # Placeholder IMDb ID
-
 def calculate_opensubtitles_hash(file_path):
-    # Function to calculate hash using the algorithm provided by OpenSubtitles
-    longlongformat = 'Q'  # unsigned long long little endian
+    longlongformat = 'Q'  
     bytesize = struct.calcsize(longlongformat)
     filesize = os.path.getsize(file_path)
     hash = filesize
