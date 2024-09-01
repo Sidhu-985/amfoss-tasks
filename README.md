@@ -24,7 +24,7 @@ I found some of the tasks hard, but that is what I expected, and the tasks were 
 [Task-04](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-04)|Gopal and his PagePal|Completed
 [Task-05](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-05)|TerminalTrolly|InCompleted
 [Task-06](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-06)|OpenDocs|InCompleted
-[Task-07](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-07)|Pirate's Dilemma|InCompleted
+[Task-07](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-07)|Pirate's Dilemma|Completed
 [Task-08](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-08)|Blog Burst|Completed
 [Task-09](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-09)|HERO-DEX|Incompleted
 [Task-10](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-10)|Operation Pixel Merge|Completed
