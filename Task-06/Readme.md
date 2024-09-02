@@ -1,7 +1,7 @@
 # OpenDocs
 
 Here I have selected a simple Project to document about which is a Simple Turtle Graphics Play for kids.
-The repository used for this example is [Python Turtle Graphics](https://github.com/asweigart/simple-turtle-tutorial-for-python).
+The repository used for this example is [Python Turtle Graphics](https://github.com/Sidhu-985/simple-turtle-tutorial-for-python).
 
 ## Python Turtle Graphics
 
