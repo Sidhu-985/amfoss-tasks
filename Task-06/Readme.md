@@ -16,7 +16,7 @@ Python Turtle Graphics is a simple application built with Turtle which is design
 ### Instructions
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/asweigart/simple-turtle-tutorial-for-python.git
+   git clone https://github.com/Sidhu-985/simple-turtle-tutorial-for-python.git
    cd simple-turtle-tutorial-for-python
 
 2. **Create a virtual environment**:
