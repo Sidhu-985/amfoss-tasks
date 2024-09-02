@@ -12,7 +12,9 @@ simple-turtle-tutorial-for-python/
 │   ├── draw_flower.py
 │
 └── animations/
-    ├── moving_turtle.py
-    └── bouncing_ball.py
+|   ├── moving_turtle.py
+|   └── bouncing_ball.py
+|
+|__ Readme.md
 
 ```
