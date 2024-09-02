@@ -15,6 +15,7 @@ simple-turtle-tutorial-for-python/
 |   ├── moving_turtle.py
 |   └── bouncing_ball.py
 |
+|__ .gitignore
 |__ Readme.md
 
 ```
