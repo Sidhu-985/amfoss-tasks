@@ -38,9 +38,10 @@ function displayProducts(products) {
 }
 
 function handleInput(command) {
+    
+    clearTerminal();
+    
     const [action, ...args] = command.split(' ');
-
-    console.log(`Command received: ${action} ${args.join(' ')}`); 
 
     switch (action) {
         case 'help':
