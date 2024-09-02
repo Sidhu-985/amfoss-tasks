@@ -37,7 +37,15 @@ The project includes various scripts that teach fundamental programming concepts
   - Creates a bouncing ball animation.
 
 ## Implementation details
-You can find all the code details by referring to it Readme.md file in the provided repository. And you can ciintribute these modules in those and learn it.
+You can find all the code details by referring to it Readme.md file in the provided repository.
+### Draw
+This feature is found in draw directory and contains implementation details to draw square and circle. We can create all other shapes by referring to Readme.md file in the provided repo.
+
+### Patterns
+Contains two patterns and its implementation.
+
+### Animations
+Contains basic animations to understand concept of Python Turtle Graphics.
 
 # Code Example
 ```python
