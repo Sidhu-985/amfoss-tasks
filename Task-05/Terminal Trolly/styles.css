@@ -90,6 +90,7 @@ h2:hover {
 .social-icon:hover {
     fill: #00aced; 
     color: #00aced; 
+    cursor: pointer;
 }
 .bar{
     background-image: url(https://cdn.pixabay.com/photo/2016/07/30/20/52/vintage-1557993__340.jpg);
