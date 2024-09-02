@@ -60,3 +60,8 @@ Python Turtle Graphics is a simple application built with Turtle which is design
  ### Contribution Guidelines
  - **Reporting Issues:** Please report any issues or bugs using the GitHub Issues tab.
 - **Submitting Pull Requests:** Fork the repository, make your changes, and submit a pull request with a description of your changes.
+
+## Additional Resources:
+- Python Turtle Documentation: [Python Turtle Graphics](https://docs.python.org/3/library/turtle.html).
+- Python Programming for Kids: [Learn Python Programming](https://www.pythonforbeginners.com/).
+
