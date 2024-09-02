@@ -17,7 +17,7 @@ Oh boy oh boy this task was filled with chaos as it says. It took a long time bu
 - Used command ```tree``` to find file named Celestial Veil Amulet.txt and print out the contents of the file to read the secret code inside it.
 
 ### **Part 4**:
-- After finding and stroing all the codes in the **Handbook** directory we decode it using ``` echo <file-name> | base64``` to get a github link.
+- After finding and stroing all the codes in the **Handbook** directory we decode it using ``` echo <file-name> | base64 -d``` to get a github link.
 - I navigated to that repository to find my next step.
 - After cloning the new found repo I had to use ```git log``` to find history of commits taken place in this repository. While navigating through this after a long time I found a text containing another secret code. I copied that and decoded it to get a new repository. And this one finally lead to the portal of victory.
 - After cloning this new repo I quickly activated the holy-spell using python command and completed my journey.
