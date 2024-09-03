@@ -15,7 +15,7 @@
 >   telegram bot
 >   requests
 >   ```
-> - I started to create the commands which are required for the bot like /start,/help,/book input,/list input etc and other commands. This was somewhat hard especially for commands like book where I have to retrieve a list of books and its detail based on genre from Books JSON place and return it in the form of csv file. I tried to think of many ways to do this, but still managed to do so. And whats this is all about : | .
+> - I started to create the commands which are required for the bot like ``` /start,/help,/book input,/list input``` etc and other commands. This was somewhat hard especially for commands like book where I have to retrieve a list of books and its detail based on genre from Books JSON place and return it in the form of csv file. I tried to think of many ways to do this, but still managed to do so. And whats this is all about : | .
 > - After creating all the commands I decided to create my own response handling as if the user is typing something else atleasts some response will occur from the bot' side. I managed the message handling and runned the bot using the Bot token. I referred these docs/videos below to complete it:
 > - [Bot Demo](https://www.youtube.com/watch?v=vZtm1wuA2yc)
 > - [Bot Features](https://core.telegram.org/bots/features)
