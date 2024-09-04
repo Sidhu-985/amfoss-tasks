@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.product-catalog {
+    width: 60%;
+    padding: 20px;
+    background-color: #dabbbb;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.product-catalog .product {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.terminal {
+    width: 40%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.terminal-window {
+    background-color: #000;
+    height: 100%;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.terminal-output {
+    white-space: pre-wrap;
+    flex-grow: 1;
+}
+
+.terminal-input {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    margin-right: 5px;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    transition: border-color 0.3s ease, color 0.3s ease; 
+}
+
+h2 {
+    text-align: center;
+    height: 100px;
+    position: relative;
+    top: 100px;
+}
+
+h2:hover {
+    color:rgb(167, 184, 13);
+    cursor: pointer;
+}
+
+.ref {
+    margin-top: 150px;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    left: 65px;
+    padding: 10px;
+    transition: fill 0.3s ease, color 0.3s ease; 
+}
+
+.social-icon:hover {
+    fill: #00aced; 
+    color: #00aced; 
+    cursor: pointer;
+}
+
+.bar{
+    background-color: rgb(121, 18, 121);
+}
+
+.rating {
+    float: right; 
+    margin-left: 20px;
+    padding:15px;
+}
+
+.hover-details {
+    background-color: #000;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    opacity: 0;  
+    transition: opacity 0.5s ease-out, top 0.5s ease-out;
+}

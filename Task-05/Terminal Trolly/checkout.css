@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=SUSE:wght@100..800&display=swap');
+
+
+.checkout {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #e2cece;
+    border-radius: 20px;
+}
+
+.cart-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center; }
+
+.product-image {
+    max-height: 150px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.total-price {
+    font-family: "SUSE", sans-serif;
+}
+
+.complete-purchase {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #3c5cba;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.complete-purchase:hover {
+    background-color: #0d6086;
+}
+.container{
+    display: flex;
+    align-items: center; 
+    height: 100vh;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a{
+    color: #3c5cba;
+}
