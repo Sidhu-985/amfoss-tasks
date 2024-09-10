@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
- void toggleBookmark(Map<String,dynamic> hero){
+ void bookmark(Map<String,dynamic> hero){
     if(bookmarkedHeroes.contains(hero)){
       bookmarkedHeroes.remove(hero);
     }
@@ -236,7 +236,7 @@ class _HomePageState extends State<HomePage> {
                             hero: hero,
                             isBookmarked: bookmarkedHeroes.contains(hero),
                             onBookmarkToggled: () {
-                              toggleBookmark(hero);
+                              bookmark(hero);
                             },
                           );
                         },
