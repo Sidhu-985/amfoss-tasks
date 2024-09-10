@@ -26,5 +26,5 @@ I found some of the tasks hard, but that is what I expected, and the tasks were 
 [Task-06](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-06)|OpenDocs|Completed
 [Task-07](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-07)|Pirate's Dilemma|Completed
 [Task-08](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-08)|Blog Burst|Completed
-[Task-09](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-09)|HERO-DEX|Incompleted
+[Task-09](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-09)|HERO-DEX|Completed
 [Task-10](https://github.com/Sidhu-985/amfoss-tasks/tree/main/Task-10)|Operation Pixel Merge|Completed
