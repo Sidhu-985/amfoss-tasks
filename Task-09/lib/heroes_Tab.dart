@@ -1,10 +1,28 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'HeroPageDetails.dart';
 
-class HeroesTab extends StatelessWidget {
+class HeroesTab extends StatefulWidget {
   final List<Map<String, dynamic>> bookmarkedHeroes;
 
   const HeroesTab({super.key, required this.bookmarkedHeroes});
+
+  @override
+  State<HeroesTab> createState() => _HeroesTabState();
+}
+
+class _HeroesTabState extends State<HeroesTab> {
+
+  void bookmark(Map<String,dynamic> hero){
+    setState(() {
+      if(widget.bookmarkedHeroes.contains(hero)){
+        widget.bookmarkedHeroes.remove(hero);
+      }
+      else{
+        widget.bookmarkedHeroes.add(hero);
+      }
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +32,7 @@ class HeroesTab extends StatelessWidget {
         padding: const EdgeInsets.all(10),
         child: Column(
           children: [
-            if (bookmarkedHeroes.isEmpty)
+            if (widget.bookmarkedHeroes.isEmpty)
               const Center(
                 child: Text(
                   'No heroes are bookmarked',
@@ -26,17 +44,28 @@ class HeroesTab extends StatelessWidget {
             else
               Expanded(
                 child: ListView.separated(
-                  itemCount: bookmarkedHeroes.length,
+                  itemCount: widget.bookmarkedHeroes.length,
                   itemBuilder: (ctx, index) {
-                    final hero = bookmarkedHeroes[index];
-                    return ListTile(
-                      title: Text(
-                        hero['name'],
-                        style:  GoogleFonts.alexandria(color: Colors.white),
+                    final hero = widget.bookmarkedHeroes[index];
+                    return GestureDetector(
+                      onTap: (){
+                        Navigator.of(context).push(
+                            MaterialPageRoute(builder: (ctx){
+                          return HeroPageDetails(
+                              hero: hero, isBookmarked: widget.bookmarkedHeroes.contains(hero), onBookmarkToggled: (){
+                                bookmark(hero);
+                          });
+                        }));
+                      },
+                      child: ListTile(
+                        title: Text(
+                          hero['name'],
+                          style:  GoogleFonts.alexandria(color: Colors.white),
+                        ),
+                        leading: Image.network(hero['images']['sm']),
+                        trailing: const Icon(Icons.bookmark,
+                          color: Colors.white,),
                       ),
-                      leading: Image.network(hero['images']['sm']),
-                      trailing: const Icon(Icons.bookmark,
-                        color: Colors.white,),
                     );
                   },
                   separatorBuilder: (ctx,index){
