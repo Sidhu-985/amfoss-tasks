@@ -4,10 +4,22 @@ This took me almost two weeks but its done. I added all the necessary assets to 
 
 Ensure that your pubspec.yaml contains these assets,fonts and dependencies:
 ## Google Fonts in dependencies
-![Google Fonts](https://github.com/user-attachments/assets/ca713158-acf7-499a-93bf-7d2875d78553)
+```yaml
+dependencies:
+  flutter:
+  google_fonts: ^6.2.1
+```
 
 ## Fonts and assets
-![image](https://github.com/user-attachments/assets/5f80eda6-477d-44e4-9861-61846c81f30d)
+```
+flutter:
+  assets:
+    - assets/superhero.json
+  fonts:
+    - family: MyFlutterApp
+      fonts:
+        - asset: fonts/MyFlutterApp.ttf
+```
 
 
 Then update it to get these changes so that the app runs effeciently.
