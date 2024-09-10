@@ -14,6 +14,6 @@ Ensure that your pubspec.yaml contains these assets,fonts and dependencies:
 - dependencies:
   - google_fonts: ^6.2.1
 
-Then update it to get these changes so that the app work effeciently.
+Then update it to get these changes so that the app runs effeciently.
 
 # Video Sample of App
