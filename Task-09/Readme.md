@@ -17,3 +17,4 @@ Ensure that your pubspec.yaml contains these assets,fonts and dependencies:
 Then update it to get these changes so that the app runs effeciently.
 
 # Video Sample of App
+[Hero-dex.webm](https://github.com/user-attachments/assets/d2987e5a-3d5d-4af8-b2fa-19f4d3a12792)
