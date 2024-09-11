@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
       title: 'Hero Dex',
       theme: ThemeData(
         primaryColor: Colors.blue,
-        indicatorColor: Colors.indigo,
       ),
       home: const HomePage(),
     );
@@ -183,41 +182,37 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           const SizedBox(height: 10),
-          SingleChildScrollView(
-            scrollDirection: Axis.horizontal,
-            child: Row(
-              children: categories.map((category) {
-                return Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 5),
-                  child: FilterChip(
-                    selected: selectedCategories.contains(category),
-                    label: Text(
-                      category,
-                      style: TextStyle(
-                        color: selectedCategories.contains(category) ? Colors.black : Colors.black,
-                      ),
+          Row(
+            children: categories.map((category) {
+              return Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                child: FilterChip(
+                  selected: selectedCategories.contains(category),
+                  label: Text(
+                    category,
+                    style: TextStyle(
+                      color: selectedCategories.contains(category) ? Colors.black : Colors.black,
                     ),
-                    onSelected: (bool selected) {
-                      setState(() {
-                        if (selected) {
-                          selectedCategories.add(category);
-                        } else {
-                          selectedCategories.remove(category);
-                        }
-                        filtercategory();
-                      });
-                    },
-                    backgroundColor: Colors.grey.shade300,
-                    selectedColor: Colors.lightGreenAccent,
                   ),
-                );
-              }).toList(),
-            ),
+                  onSelected: (bool selected) {
+                    setState(() {
+                      if (selected) {
+                        selectedCategories.add(category);
+                      } else {
+                        selectedCategories.remove(category);
+                      }
+                      filtercategory();
+                    });
+                  },
+                  backgroundColor: Colors.grey.shade300,
+                  selectedColor: Colors.lightGreenAccent,
+                ),
+              );
+            }).toList(),
           ),
           const SizedBox(height: 30),
           Expanded(
             child: Container(
-              color: Colors.black12,
               child: GridView.builder(
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
