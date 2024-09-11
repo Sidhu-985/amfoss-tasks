@@ -93,7 +93,6 @@ class _HeroPageDetailsState extends State<HeroPageDetails> {
             Expanded(
               child: SingleChildScrollView(
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Center(
                       child: SizedBox(
