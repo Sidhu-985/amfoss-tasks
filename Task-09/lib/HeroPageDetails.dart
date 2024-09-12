@@ -31,8 +31,8 @@ class _HeroPageDetailsState extends State<HeroPageDetails> {
   Widget build(BuildContext context) {
     if (widget.hero['appearance']['race'] == null) {
       setState(() {
+        widget.hero['appearance']['race'] = "Unknown";
       });
-      widget.hero['appearance']['race'] = "Unknown";
     }
     return Scaffold(
       backgroundColor: Colors.black12,
