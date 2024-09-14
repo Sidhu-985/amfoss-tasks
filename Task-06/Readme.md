@@ -6,7 +6,8 @@ The repository used for this example is [Vue Hackernews 2.0](https://github.com/
 ## Vue Hackernews 2.0
 
 ### Overview 
-Vue Hackernews 2.0 is a single-page application built with Vue.js 2.0 that replicates the popular Hacker News website. It is designed to demonstrate best practices in modern JavaScript development with Vue.js, including server-side rendering (SSR), Vuex for state management, and Vue Router for navigation. This project serves as a practical introduction to Vue.js with real-world features like code splitting, lazy loading, and Progressive Web App (PWA) support.
+Vue Hackernews 2.0 is a single-page application built with Vue.js 2.0 that replicates the popular Hacker News website.Vue Hackernews 2.0 is an educational project designed to display,build certain stories on whats happening in todays world of **Programming**. It is designed to demonstrate best practices in modern JavaScript development with Vue.js, including server-side rendering (SSR), Vuex for state management, and Vue Router for navigation.
+The project includes various scripts that teach fundamental programming concepts and help users create through UI and animations with Vue.
 
 ## Features
 - Server-Side Rendering (SSR) for faster loading.
