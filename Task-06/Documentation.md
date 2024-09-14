@@ -1,8 +1,8 @@
-# Documentation for Python Turtle Graphics
+# Documentation for Vue Hackernews 2.0
 
 ## Overview
-Python Turtle Graphics for Kids is an educational project designed to introduce beginners, especially kids, to programming through Python's Turtle graphics module.
-The project includes various scripts that teach fundamental programming concepts and help users create graphical patterns and animations with Turtle.
+Vue Hackernews 2.0 is an educational project designed to share,build certain stories on whats happening in todays world of **Programming**.
+The project includes various scripts that teach fundamental programming concepts and help users create through UI and animations with Vue.
 
 ## Functionality
 
