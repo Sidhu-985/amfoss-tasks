@@ -1,67 +1,59 @@
 # OpenDocs
 
-Here I have selected a simple Project to document about which is a Simple Turtle Graphics Play for kids.
-The repository used for this example is [Python Turtle Graphics](https://github.com/Sidhu-985/simple-turtle-tutorial-for-python).
+Here I have selected a simple Project to document about **Vue Hackernews 2.0** which is a single-page application built using Vue.js 2.0 similar to the original Hackernews Website.<br>
+The repository used for this example is [Vue Hackernews 2.0](https://github.com/vuejs/vue-hackernews-2.0/tree/master).
 
-## Python Turtle Graphics
+## Vue Hackernews 2.0
 
 ### Overview 
-Python Turtle Graphics is a simple application built with Turtle which is designed to teach students the basics of programming using Python's Turtle graphics module.This project serves as a practical introduction to Turtle and contains certain features(functions).
+Vue Hackernews 2.0 is a single-page application built with Vue.js 2.0 that replicates the popular Hacker News website. It is designed to demonstrate best practices in modern JavaScript development with Vue.js, including server-side rendering (SSR), Vuex for state management, and Vue Router for navigation. This project serves as a practical introduction to Vue.js with real-world features like code splitting, lazy loading, and Progressive Web App (PWA) support.
 
-### Features
-- Draw shapes
-- Create patterns
-- Build Basic Animations
+## Features
+- Server-Side Rendering (SSR) for faster loading.
+- Contains API for fetching data details of latest stories,comments and user login.
+- Progressive Web App (PWA) Support
+- View and create a list of stories.
+- Supports code splittibg and lazy loading
 
-### Instructions
+## Instructions
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Sidhu-985/simple-turtle-tutorial-for-python.git
-   cd simple-turtle-tutorial-for-python
+   git clone https://github.com/vuejs/vue-hackernews-2.0.git
+   cd vue-hackernews-2.0
 
-2. **Create a virtual environment**:
-   ```
-   python -m venv env
-   ```
-    **To activate**:
-    - On Windows:
-      ```
-      env\Scripts\activate
-      ```
-    - On linux:
-      ```
-      source env/bin/activate
-      ```
+2. **Install dependencies**:
+  ```
+# To install all the node modules required to run the code
+  npm install
 
-3. **Install dependencies**:
+  npm run dev
   ```
-  pip install -r requirements.txt
-  ```
+  This will start a local development server and you can access the app at http://localhost:8080.
 
 4. **Note**:
-   Before doing the above steps make sure you have the latest python version installed in your pc.If not install it from here [Python](https://www.python.org).
+   Before doing the above steps make sure you have the latest  Node.js installed on your machine.If not install it from here [Node js](https://nodejs.org/).
 
-5. **Run the script**:
+5. **To run**:
    ```
-    python turtle_basics/draw_square.py
+    npm start
    ```
 
 ### Usage
-1. Draw:
+1. Use:
    - Navigate to given files.
    - Modify the code.
    - Run the script.
 2. Update:
-   - Edit the code.
+   - To edit the UI navigate to src/ directory where it contains all vue files/components.
    - Save it.
 3. Delete:
-   - Use ```git checkout``` to reset to your original state.
+   - Use ```git checkout .``` to reset to your original state.
 
  ### Contribution Guidelines
  - **Reporting Issues:** Please report any issues or bugs using the GitHub Issues tab.
 - **Submitting Pull Requests:** Fork the repository, make your changes, and submit a pull request with a description of your changes.
 
 ## Additional Resources:
-- Python Turtle Documentation: [Python Turtle Graphics](https://docs.python.org/3/library/turtle.html).
-- Python Programming for Kids: [Learn Python Programming](https://www.pythonforbeginners.com/).
-
+- Vue.js Official Documentation: [Vue.js Documentation](https://vuejs.org/).
+- Hackernews API Documentation: [Hackernews API](https://github.com/HackerNews/API).
+- Vuex Documentation: [Vuex Library](https://vuex.vuejs.org/).
