@@ -1,6 +1,10 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
 .container {
     display: flex;
-    height: 100vh;
 }
 
 .product-catalog {
@@ -19,6 +23,11 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.product-catalog img {
+    max-width: 100px;
+    height: auto;
+}
+
 .terminal {
     width: 40%;
     background-color: #333;
@@ -27,7 +36,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .terminal-window {
@@ -58,7 +67,7 @@ input[type="text"] {
     border: none;
     color: #fff;
     outline: none;
-    transition: border-color 0.3s ease, color 0.3s ease; 
+    width: 100%;
 }
 
 h2 {
@@ -69,7 +78,7 @@ h2 {
 }
 
 h2:hover {
-    color:rgb(167, 184, 13);
+    color: rgb(167, 184, 13);
     cursor: pointer;
 }
 
@@ -83,23 +92,23 @@ h2:hover {
     position: relative;
     left: 65px;
     padding: 10px;
-    transition: fill 0.3s ease, color 0.3s ease; 
+    transition: fill 0.3s ease, color 0.3s ease;
 }
 
 .social-icon:hover {
-    fill: #00aced; 
-    color: #00aced; 
+    fill: #00aced;
+    color: #00aced;
     cursor: pointer;
 }
 
-.bar{
+.bar {
     background-color: rgb(121, 18, 121);
 }
 
 .rating {
-    float: right; 
+    float: right;
     margin-left: 20px;
-    padding:15px;
+    padding: 15px;
 }
 
 .hover-details {
@@ -109,6 +118,63 @@ h2:hover {
     padding: 10px;
     border-radius: 20px;
     position: relative;
-    opacity: 0;  
+    opacity: 0;
     transition: opacity 0.5s ease-out, top 0.5s ease-out;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .product-catalog, .terminal {
+        width: 100%;
+    }
+
+    .bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bar img {
+        height: 100px;
+    }
+
+    .bar h2 {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-catalog, .terminal {
+        padding: 10px;
+    }
+
+    .social-icon {
+        width: 24px;
+        height: 24px;
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bar h2 {
+        font-size: 14px;
+    }
+
+    .bar img {
+        height: 80px;
+    }
+
+    .product-catalog .product {
+        border-radius: 10px;
+    }
+
+    .terminal {
+        padding: 10px;
+    }
+
+    .terminal-input input[type="text"] {
+        font-size: 14px;
+    }
 }
