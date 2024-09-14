@@ -31,10 +31,10 @@ The project includes various scripts that teach fundamental programming concepts
   ```
   This will start a local development server and you can access the app at http://localhost:8080.
 
-4. **Note**:
+3. **Note**:
    Before doing the above steps make sure you have the latest  Node.js installed on your machine.If not install it from here [Node js](https://nodejs.org/).
 
-5. **To run**:
+4. **To run**:
    ```
     npm start
    ```
