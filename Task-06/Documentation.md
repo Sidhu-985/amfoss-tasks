@@ -1,61 +1,107 @@
 # Documentation for Vue Hackernews 2.0
 
 ## Overview
-Vue Hackernews 2.0 is an educational project designed to share,build certain stories on whats happening in todays world of **Programming**.
+Vue Hackernews 2.0 is an educational project designed to display,build certain stories on whats happening in todays world of **Programming**.
 The project includes various scripts that teach fundamental programming concepts and help users create through UI and animations with Vue.
 
 ## Functionality
 
 ### Models
 
-#### Drawing
+#### Views
 
-- **`draw_square(turtle, size)`**
-  - Draws a square with created turtle pen and its size.
+- **ItemList.vue**
+  - Displays a list of stories.
 
-- **`draw_circle(turtle, radius)`**
+- **ItemView.vue**
+  - Shows details of specific Hacker News page with comments.
 
-  - Draws a circle with accepting a turtle pen and radius as parameters.
+- **UserView.vue**
+  - Displays details about the user.
 
-#### Patterns
+#### Components
 
-- **`create_spiral_pattern(turtle, line_length)`**
+- **Comment.vue**
 
-  - Returns a spiral pattern with created turtle pen and the lines lenght.
+  - Displays comments for each news page.
 
-- **`draw_flower(turtle, petals, radius)`**
+- **Item.vue**
 
-  - Draws a flower where turtle is the pen,petals - number of petals,radius - radius of each petal.
+  - Displays a single news page.
 
-#### Animations
+- **ProgressBar.vue**
 
-- **`move_turtle(turtle)`**
+  - Shows a progress bar during loading time.
+    
+- **Spinner.vue**
 
-  - Makes the object move thus creating an animation.
+  - Displays a circular spinning while data is being fetched from API.
+    
+#### API
 
-- **`bounce_ball(turtle)`**
-  - Creates a bouncing ball animation.
+- **`create-api-client.js`**
 
+  - API client to make requests for certain data to the Hacker News API from the client side.
+
+- **`create-api-server.js`**
+  - API server setted up for server-side interactions.
+
+- **`index.js`**
+  - Uses methods for fetching data(items and users) from the Hacker News API.
+
+#### Utilities
+
+- **`filters.js`**
+  - Filters the news pages based on date or numbers.
+
+- **`title.js`**
+  - Displays the title of the news document page based on the current route.
+
+#### Router
+
+- **`index.js`**
+  
+  - Configures routes and maps them to their respective components, enabling navigation within the app.
+    
 ## Implementation details
-You can find all the code details by referring to it Readme.md file in the provided repository.
-### Draw
-This feature is found in draw directory and contains implementation details to draw square and circle. We can create all other shapes by referring to Readme.md file in the provided repo.
+You can find all the code files by referring to our directory structure.
 
-### Patterns
-Contains two patterns and its implementation.
+### Build
+The part containing webpack configuration files for client and server builds is present in ```build/``` directory.
 
-### Animations
-Contains basic animations to understand concept of Python Turtle Graphics.
+### Images and Logo
+Assets such as images and logos of different sizes are in ```public/``` directory.
+
+### Main UI
+The main components of the website is present in ```src/``` including components,views,API setup,utilities and Vuex store.
 
 # Code Example
-```python
-import turtle as t
-T = t.Turtle()
+```js
+import Vue from 'vue'
+import Router from 'vue-router'
 
-def draw_square(turtle, size):
-    for _ in range(4):
-        turtle.forward(size)
-        turtle.right(90)
+Vue.use(Router)
 
-draw_square(T,100)
+// route-level code splitting
+const createListView = id => () => import('../views/CreateListView').then(m => m.default(id))
+const ItemView = () => import('../views/ItemView.vue')
+const UserView = () => import('../views/UserView.vue')
+
+export function createRouter () {
+  return new Router({
+    mode: 'history',
+    fallback: false,
+    scrollBehavior: () => ({ y: 0 }),
+    routes: [
+      { path: '/top/:page(\\d+)?', component: createListView('top') },
+      { path: '/new/:page(\\d+)?', component: createListView('new') },
+      { path: '/show/:page(\\d+)?', component: createListView('show') },
+      { path: '/ask/:page(\\d+)?', component: createListView('ask') },
+      { path: '/job/:page(\\d+)?', component: createListView('job') },
+      { path: '/item/:id(\\d+)', component: ItemView },
+      { path: '/user/:id', component: UserView },
+      { path: '/', redirect: '/top' }
+    ]
+  })
+}
 ```
